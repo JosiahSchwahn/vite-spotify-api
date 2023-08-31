@@ -1,10 +1,10 @@
 import './App.css';
-import Spotify from './Components/SpotifyCurl.jsx';
+import SpotifyAPI from './Components/SpotifyAPI';
 
 function App() {
   return (
     <>
-      <Spotify></Spotify>
+      <SpotifyAPI></SpotifyAPI>
     </>
   )
 }
